@@ -2,7 +2,7 @@
 var Twitter = require('twitter');
 
 //pass in the function to tweetus to tweet later
-var tweetus ='private info testing' ;//value to pass in
+var tweetus ='this is awesome' ;//value to pass in
  
 var client = new Twitter({
  consumer_key: 'BWwrpygcZUADDrDdn1YnQuYKn',
