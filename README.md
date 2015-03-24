@@ -1,9 +1,10 @@
 Section 1, Team 3 - “Inestimable Circularity”
-Chern, Pete Ming
-Gomez, Alberto
-Hackemack, Robert Derrick
-Sok, Kourun
-Yadav, Vivek
+	Chern, Pete Ming
+	Gomez, Alberto
+	Hackemack, Robert Derrick
+	Sok, Kourun
+	Yadav, Vivek
+	
 /* Instruction on setting up 
 
 
