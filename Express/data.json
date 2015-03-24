@@ -1,0 +1,14 @@
+{
+	"users": [{
+		"firstName": "Pete",
+		"lastName": "Chern",
+		"email": "chernp@csu.fullerton.edu",
+		"password": "test"
+		},{
+		"firstName": "Kourun",
+		"lastName": "Sok",
+		"email": "kourun@csu.fullerton.edu",
+		"password": "test"
+	}],
+	"proposal": []
+}
