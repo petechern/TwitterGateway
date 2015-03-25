@@ -10,6 +10,7 @@ app.set('view engine', 'ejs');
 
 app.use('/css', express.static(__dirname + '/public/css'));
 
+//the string text to pass in to the tweeter.js to send to twitter when the vote is ready
 var tweetProposals = [];
 
 app.use('/', routes);
