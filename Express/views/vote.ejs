@@ -54,7 +54,7 @@
           <th>Tweet</th><th>Up Vote</th><th>Down Vote</th><th>Action</th><th>
         </tr>
         <% proposal.forEach(function(item) { %>
-          <td><%= item.content %></td><td>1</td><td>0</td><td><button>Approve</button><button>Disapprove</button></td><td>
+          <td><%= item.content %></td><td><%= item.upvote %></td><td><%= item.downvote %></td><td><button>Approve</button><button>Disapprove</button></td><td>
         <% }); %>
 
         <tr>
