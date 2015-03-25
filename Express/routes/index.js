@@ -14,7 +14,6 @@ router.get('/propose', function(req, res) {
 router.post('/propose', function(req, res) {
 	var proposal = req.body.proposal;
 	appdata["proposal"].push({"author": "Pete Chern", "content": proposal, "upvote": 0, "downvote": 0});
-
 	res.redirect('/vote');
 });
 

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Twitter</title>
+
+    <link rel="stylesheet" href="https://bootswatch.com/assets/css/bootswatch.min.css">
+    <link rel="stylesheet" href="https://bootswatch.com/yeti/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body class="default">
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="../" class="navbar-brand">Team 3</a>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="/signup" target="_blank">Sign Up!</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="main container">
+      <div class="btn-group main-nav" data-toggle="buttons">
+        <label class="btn btn-primary btn-lg active">
+          <input type="checkbox" autocomplete="off" checked> Home
+        </label>
+        <label class="btn btn-primary btn-lg">
+          <input type="checkbox" autocomplete="off"> Propose Tweet
+        </label>
+        <label class="btn btn-primary btn-lg">
+          <input type="checkbox" autocomplete="off"> Pending Tweets
+        </label>
+        <label class="btn btn-primary btn-lg">
+          <input type="checkbox" autocomplete="off"> Sign out
+        </label>
+      </div>
+
+      <form class="form-horizontal well well-lg col-lg-10 col-lg-offset-1">
+        <fieldset>
+          <legend>Propose a Tweet</legend>
+          <textarea class="form-control" rows="5"></textarea>
+          <div class="form-group center pad">
+              <input type="submit" class="btn btn-primary" value="Submit">
+          </div>
+        </fieldset>
+      </form>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
