@@ -4,7 +4,7 @@ var router = express.Router();
 appdata = require('../data.json');
 
 router.get('/', function(req, res) {
-	res.render('index');
+	res.render('propose');
 });
 
 router.get('/propose', function(req, res) {
